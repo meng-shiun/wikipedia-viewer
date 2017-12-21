@@ -88,9 +88,7 @@ $(document).ready(function() {
 
 
   // Show message if no result found
-  var checkResult = (Boolean) => Boolean ?
-  ($('.message').css('display', 'none')) : ($('.message').css('display', 'block'));
-
+  var checkResult = (Boolean) => Boolean ? ($('.message').css('display', 'none')) : ($('.message').css('display', 'block'));
 
   getRandomWiki();
   $('.wiki-random').click(() => getRandomWiki());
